@@ -75,45 +75,6 @@ Transfer learning clearly helped: the pretrained DenseNet learned useful feature
 - Subject-wise splits and cross-validation to test on unseen people
 - Larger and more diverse dataset
 
-## 📁 Project Structure
-
-```
-├── Non_Contact_Facial_Analysis_Infrared.ipynb
-├── models/
-│   ├── healthnet_infrared.pth
-│   └── densenet_infrared.pth
-├── manifests/
-│   ├── infrared_manifest.csv
-│   └── processed_ir_manifest.csv
-├── requirements.txt
-└── README.md
-```
-
-## 🚀 Getting Started
-
-The notebook was built in Google Colab with the dataset stored on Google Drive. To run locally, replace the Drive paths with your local dataset path.
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-pip install -r requirements.txt
-jupyter notebook
-```
-
-**requirements.txt**
-```
-torch
-torchvision
-opencv-python
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-pillow
-tqdm
-```
-
 ## 🛠️ Tech Stack
 
 | Area | Tools |
@@ -128,4 +89,3 @@ tqdm
 ## 👤 Author
 
 **Sushmitha K**
-Always learning, always building at the edge of medicine and machines.
